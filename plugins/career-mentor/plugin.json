@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "career-mentor",
+  "version": "2.1.0",
+  "description": "面向软件工程学生的编程训练、技术面试、项目辅导与学习档案维护。",
+  "author": {
+    "name": "CareerMentor"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "CareerMentor V2",
+        "shortDescription": "软件工程学生的编程训练、技术面试与求职成长导师",
+        "defaultPrompt": [
+          "开始今日训练，先读取已有学习档案。",
+          "模拟压力面试"
+        ]
+      }
+    }
+  }
+}

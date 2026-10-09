@@ -1,0 +1,4 @@
+interface:
+  display_name: "CareerMentor V2"
+  short_description: "面向2027届软件工程学生的编程训练、技术面试、能力诊断与南京求职成长导师"
+  default_prompt: "使用 $career-mentor 开始今日训练，先读取已有学习档案。"

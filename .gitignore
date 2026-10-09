@@ -1,0 +1,25 @@
+# 默认排除个人学习档案与报告；不会移除已追踪文件
+/data/
+/handoff/latest-report.md
+/handoff/archive/
+/handoff/imports/
+/handoff/conflicts/
+/.verification/
+/exercises/*
+!/exercises/.gitkeep
+/projects/*
+!/projects/.gitkeep
+
+# 密钥、私有配置、个人简历与运行产物
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+resume-private*
+简历-私密*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/

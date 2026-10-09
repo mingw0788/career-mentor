@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    {
+      "name": "career-mentor",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "source": {
+        "source": "local",
+        "path": "./plugins/career-mentor"
+      },
+      "category": "Productivity"
+    }
+  ],
+  "interface": {
+    "displayName": "CareerMentor本地插件"
+  },
+  "name": "career-mentor-local"
+}
